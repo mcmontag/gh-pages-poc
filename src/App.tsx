@@ -81,7 +81,7 @@ flow
   .connect('para::top', 'sub1::bottom', 'retry::left')
   .connect('para::bottom', 'yell::left')
   .connect('para::right', 'retry::bottom')
-  .connect('retry::right', 'op1')
+  .connect('retry::right', 'op1::right')
 
 const flowchart = flow.build();
 
